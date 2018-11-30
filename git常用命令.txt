@@ -39,3 +39,7 @@ $ git config --global user.email "email@example.com"
 12.使用git reset HEAD <file>放弃已经放入暂存区的修改。
 
 13.使用git rm <file>删除文件。
+
+14.使用git remote add origin https://github.com/Xxster/Gitfile.git命令连接到远程库
+
+15.使用git push -u origin master第一次推送master分支的所有内容。此后，使用命令git push origin master推送最新修改
