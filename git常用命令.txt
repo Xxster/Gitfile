@@ -1,0 +1,41 @@
+git下载地址：https://git-scm.com/downloads
+
+创建本地版本库：（版本库是隐藏的用命令 ls -ah可以看见）
+    $ mkdir learngit
+    $ cd learngit
+    $ pwd 
+    /Users/michael/learngit
+    $ git init
+    Initialized empty Git repository in /Users/michael/learngit/.git/
+
+对厂库指定用户名和邮件地址
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+。
+1.通过 git init 命令把这个目录变成Git可以管理的仓库。
+
+2.使用命令 git add <file>，注意，可反复多次使用，添加多个文件。
+
+3.使用命令 git commit -m <message>，完成提交（可以一次提交多个文件）。
+
+4.使用git status命令，查看工作区状态（文件是是否有被修改）。
+
+5.使用git diff可以查看修改内容。
+
+6.使用gir log命令显示从最近到最远的提交日志，减少输出类容可以
+加上--pretty=oneline参数 即：git log--pretty=oneline 。
+
+7.使用git reset --hard HEAD^ 可以退回上一个版本（上一个版本就是HEAD^，
+上上一个版本就是HEAD^^）
+
+8.使用git reset --hard commit_id去到指定版本（commit_id是版本id，没有必要写完）。
+
+9.使用git reflog查看命令历史，以便确定要回到未来的哪个版本。
+
+10.使用git diff HEAD -- <file>命令可以查看工作区和版本库里面最新版本的区别。
+
+11.使用git checkout -- <file>放弃文件的修改（包括删除）回到工作前的状态。
+
+12.使用git reset HEAD <file>放弃已经放入暂存区的修改。
+
+13.使用git rm <file>删除文件。
