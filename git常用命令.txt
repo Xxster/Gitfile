@@ -22,7 +22,7 @@ $ git config --global user.email "email@example.com"
 
 5.使用git diff可以查看修改内容。
 
-6.使用gir log命令显示从最近到最远的提交日志，减少输出类容可以
+6.使用gir log命令显示从最近到最远的提交日志，减少输出类容可以。
 加上--pretty=oneline参数 即：git log--pretty=oneline 。
 
 7.使用git reset --hard HEAD^ 可以退回上一个版本（上一个版本就是HEAD^，
@@ -40,6 +40,11 @@ $ git config --global user.email "email@example.com"
 
 13.使用git rm <file>删除文件。
 
-14.使用git remote add origin https://github.com/Xxster/Gitfile.git命令连接到远程库
+14.使用git remote add origin https://github.com/Xxster/Gitfile.git命令连接到远程库。
 
-15.使用git push -u origin master第一次推送master分支的所有内容。此后，使用命令git push origin master推送最新修改
+15.使用git push -u origin master第一次推送master分支的所有内容。此后，使用命令git push origin master推送最新修改。
+
+16.使用git sheckout -b name创建并切换到新的分支上去。（git brabch name和it sheckout  name的组合）
+
+17.使用git brabch查看当前所有分支，当前分支前面会标一个*号。
+
