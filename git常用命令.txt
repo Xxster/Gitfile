@@ -44,7 +44,7 @@ $ git config --global user.email "email@example.com"
 
 15.使用git push -u origin master第一次推送master分支的所有内容。此后，使用命令git push origin master推送最新修改。
 
-16.使用git sheckout -b name创建并切换到新的分支上去。（git brabch name（创建分支）和it sheckout  name（切换分支）的组合）
+16.使用git sheckout -b name创建并切换到新的分支上去。（git brabch name（创建分支）和git sheckout  name（切换分支）的组合）
 
 17.使用git branch查看当前所有分支，当前分支前面会标一个*号。
 
@@ -52,4 +52,4 @@ $ git config --global user.email "email@example.com"
 
 19.使用git branch -b name删除分支。
 
-20.使用
+20.bbbbb使bbbbbb用
