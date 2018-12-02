@@ -52,4 +52,6 @@ $ git config --global user.email "email@example.com"
 
 19.使用git branch -b name删除分支。
 
-20.cccccc使ccccccc用
+20.使用git log --graph命令可以看到分支合并图。
+
+21.使用
