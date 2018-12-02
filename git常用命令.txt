@@ -46,7 +46,7 @@ $ git config --global user.email "email@example.com"
 
 16.使用git sheckout -b name创建并切换到新的分支上去。（git brabch name（创建分支）和it sheckout  name（切换分支）的组合）
 
-17.使用git brabch查看当前所有分支，当前分支前面会标一个*号。
+17.使用git branch查看当前所有分支，当前分支前面会标一个*号。
 
 18.使用git merge name合并某分支到当前分支。
 
