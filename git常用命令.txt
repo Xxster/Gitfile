@@ -50,7 +50,7 @@ $ git config --global user.email "email@example.com"
 
 18.使用git merge name合并某分支到当前分支。
 
-19.使用git branch -b name删除分支。
+19.使用git branch -d name删除分支。
 
 20.使用git log --graph命令可以看到分支合并图。
 
